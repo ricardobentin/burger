@@ -1,12 +1,12 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
   $(".devoured").on("click", function(event) {
-    var id = $(this).data("id");
-    // var eat = $(this).attr("devoured", 1);
+   let id = $(this).data("id");
+    // let eat = $(this).attr("devoured", 1);
     console.log("this is id:", id)
     // console.log("this is eat:", eat)
 
-    var newDevouredState = {
+    let newDevouredState = {
       devoured: 1
     };
 
@@ -25,7 +25,7 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
-    var newBurger = {
+    let newBurger = {
       burger_name: $("#ca")
         .val()
         .trim(),
