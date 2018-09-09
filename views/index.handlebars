@@ -1,31 +1,30 @@
 <h1>EAT DA BURGER!</h1>
-
-<h2>Burgers Ready to be Devoured!</h2>
-
-<ul>
+<img src="/assets/img/burger.png"
+<div id="not_devoured">
+    {{!-- <h2>Burgers Ready to be Devoured!</h2> --}}
     {{#each burgers}}
     {{#unless devoured}}
-    <li>
+    <div class="not-eaten">
         {{id}}. {{burger_name}}
         <button class="devoured" data-id="{{id}}" data-devoured="{{devoured}}">
             EAT ME!
-        </button></li>
+        </button></div>
     {{/unless}}
     {{/each}}
-</ul>
+</div>
 
-<h2>Devoured Burgers!</h2>
 
-<ul>
-    {{#each burgers}}
+<h2>Devoured Burgers!</h2>  
+<div id="devoured">
+        {{#each burgers}}
     {{#if devoured}}
-    <li>
+    <div class="eaten">
         {{id}}. {{burger_name}}
-    </li>
+    </div>
     {{/if}}
 
     {{/each}}
-</ul>
+</div>
 
 <h2>Add a Burger</h2>
 <form class="create-form">

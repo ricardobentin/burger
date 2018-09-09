@@ -1,0 +1,22 @@
+.not-eaten {
+  padding: 5px;
+  background-color: white;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+.eaten {
+  padding: 5px;
+  background-color: beige;
+  color: gray;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 5px;
+}
+body {
+  background-color: rgb(255, 225, 90);
+}
+img{
+    max-width: 150px;
+}
