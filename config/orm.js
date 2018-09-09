@@ -39,8 +39,6 @@ function objToSql(ob) {
   return arr.toString();
 }
 
-
-//THIS IS WHERE YOU NEED TO FIX STUFF!
 // Object for all our SQL statement functions.
 var orm = {
   all: function(tableInput, cb) {
@@ -91,5 +89,5 @@ var orm = {
   },
 };
 
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (burger.js).
 module.exports = orm;
