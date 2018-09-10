@@ -1,15 +1,13 @@
 .not-eaten {
   padding: 5px;
   background-color: white;
-  max-width: 300px;
   margin-bottom: 10px;
 }
 .eaten {
   padding: 5px;
-  height: 29.5px;
+  height: 48px;
   background-color: beige;
   color: gray;
-  max-width: 300px;
   margin-bottom: 10px;
 }
 button {
