@@ -17,9 +17,12 @@ button {
 }
 body {
   background-color: rgb(255, 225, 90);
-  margin: 0 auto;
-  margin-left: 20px;
+  margin: 20px;
 }
-img{
-    max-width: 150px;
+img {
+  max-width: 150px;
+}
+.jumbotron {
+  padding: 10px;
+  align-content: center;
 }
