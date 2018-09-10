@@ -6,6 +6,7 @@
 }
 .eaten {
   padding: 5px;
+  height: 29.5px;
   background-color: beige;
   color: gray;
   max-width: 300px;
@@ -16,6 +17,8 @@ button {
 }
 body {
   background-color: rgb(255, 225, 90);
+  margin: 0 auto;
+  margin-left: 20px;
 }
 img{
     max-width: 150px;
