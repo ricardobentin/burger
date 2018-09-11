@@ -27,7 +27,7 @@ The application has one HTML page that has been styled with bootstrap and a cust
 <img src="https://github.com/ricardobentin/burger/blob/master/public/assets/img/eaten.jpg" alt="EATEN">
 
 Demo of the app:
-<img src="https://github.com/ricardobentin/burger/blob/master/public/assets/img/demo.GIF" alt="DEMO">
+<img src="https://github.com/ricardobentin/burger/blob/master/public/assets/img/demo.gif" alt="DEMO">
 
 Features of the app:
 * Runs on an express server
