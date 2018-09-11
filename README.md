@@ -21,13 +21,13 @@ Use the provided schema and seeds files to initialize the database and required 
 The application has one HTML page that has been styled with bootstrap and a custom css file.
 
 * Example of page after a user has created a burger and it is ready to be eaten: 
-<img src="https://github.com/ricardobentin/FriendFinder/blob/master/public/assets/img/eat.jpg" alt="EAT">
+<img src="https://github.com/ricardobentin/burger/blob/master/public/assets/img/eat.jpg" alt="EAT">
 
 * Example of page after a user has eaten a burger:
-<img src="https://github.com/ricardobentin/FriendFinder/blob/master/public/assets/img/eaten.jpg" alt="EATEN">
+<img src="https://github.com/ricardobentin/burger/blob/master/public/assets/img/eaten.jpg" alt="EATEN">
 
 Demo of the app:
-<img src="https://github.com/ricardobentin/FriendFinder/blob/master/public/assets/img/demo.GIF" alt="DEMO">
+<img src="https://github.com/ricardobentin/burger/blob/master/public/assets/img/demo.GIF" alt="DEMO">
 
 Features of the app:
 * Runs on an express server
